@@ -5,7 +5,7 @@ function MyApp16(props) {
     <div>
       <Comp1 name="son" age={33} />
       <Comp1 />
-      <Comp1 name={"lee"} />
+      <Comp1 name="lee" />
       <Comp1 age={44} />
     </div>
   );
