@@ -10,7 +10,6 @@ function MyApp19(props) {
     </div>
   );
 }
-
 function Comp({ address = "서울역", city = "제주" }) {
   return (
     <div>
