@@ -11,7 +11,16 @@ function App19(props) {
   );
 }
 
-// MyComp,
-function MyComp()
+// MyComp
+function MyComp({ title = "무제", content = "냉무", author = "무명" }) {
+  return (
+    <div>
+      <h3>comp</h3>
+      <li>{title}</li>
+      <li>{content}</li>
+      <li>{author}</li>
+    </div>
+  );
+}
 
 export default App19;
