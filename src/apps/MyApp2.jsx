@@ -1,6 +1,12 @@
-// component
+// react component
 function MyComponent() {
-  return <p>안녕</p>;
+  // root 태그는 하나만 존재
+  // 여러 줄로 작성시 () 꼭 사용
+  return (
+    <div>
+      <p>hello</p>
+    </div>
+  );
 }
 
 function MyApp2() {
@@ -14,6 +20,7 @@ function MyApp2() {
   // :  이미 존재하는 html 요소들
 
   // component 사용시 종료 태그 꼭 작성
+  // empty tag는 시작 태그에 / 꼭 작성
   return (
     <div>
       hello
