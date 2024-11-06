@@ -19,6 +19,7 @@ function MyApp17(props) {
     </div>
   );
 }
+
 function Comp2() {
   return <h1>컴프2</h1>;
 }
