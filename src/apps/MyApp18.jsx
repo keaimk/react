@@ -12,7 +12,7 @@ function MyApp18(props) {
 function Comp1(props) {
   return (
     <div>
-      <h3>주소: {props.address}</h3>
+      <h3>주소 : {props.address}</h3>
       <h3>점수 : {props.score}</h3>
     </div>
   );

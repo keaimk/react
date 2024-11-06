@@ -17,11 +17,11 @@ function Comp({ product, title, content, author }) {
   return (
     <div>
       <h3>comp</h3>
-      <li>{product.name}</li>
-      <li>{product.price}</li>
-      <li>{title}</li>
-      <li>{content}</li>
-      <li>{author}</li>
+      <h3>{product.name}</h3>
+      <h3>{product.price}</h3>
+      <h3>{title}</h3>
+      <h3>{content}</h3>
+      <h3>{author}</h3>
     </div>
   );
 }
