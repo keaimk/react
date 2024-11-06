@@ -1,9 +1,6 @@
 function App() {
-  return (
-    <div>
-      hello react
-    </div>
-  )
+  console.log("java");
+  return <div>hello react</div>;
 }
 
-export default App
+export default App;
