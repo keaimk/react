@@ -2,32 +2,37 @@ import React from "react";
 import { Input, Textarea } from "@chakra-ui/react";
 import { Field } from "../components/ui/field.jsx";
 import { Checkbox } from "../components/ui/checkbox.jsx";
-import { HiOutlinePlus } from "react-icons/hi2";
+import { HiOutlinePlus } from "react-icons/hi";
 import { Radio, RadioGroup } from "../components/ui/radio.jsx";
+import { Switch } from "../components/ui/switch.jsx";
 
 function MyApp28(props) {
   return (
     <div style={{ margin: "10px" }}>
+      <h5>switch</h5>
+      <Switch>동의</Switch>
+      <Switch variant="raised">동의</Switch>
+      <hr />
       <h5>radio button</h5>
       <RadioGroup>
-        <Radio value-={1}>option1</Radio>
-        <Radio value-={2}>option2</Radio>
-        <Radio value-={3}>option3</Radio>
+        <Radio value={1}>option1</Radio>
+        <Radio value={2}>option2</Radio>
+        <Radio value={3}>option3</Radio>
       </RadioGroup>
       <hr />
       <h5>checkbox</h5>
-      <Checkbox icon={HiOutlinePlus}>동의</Checkbox>
+      <Checkbox icon={<HiOutlinePlus />}>동의</Checkbox>
       <hr />
       <Checkbox variant="outline" checked>
         동의
       </Checkbox>
       <hr />
-      <Checkbox variant="solid">동의</Checkbox>
+      <Checkbox variant="solid"> 동의 </Checkbox>
       <hr />
-      <Checkbox variant="subtle">동의</Checkbox>
+      <Checkbox variant="subtle"> 동의 </Checkbox>
       <hr />
-      <input type="chechbox" id="check1" />
-      <label htmlFor="check1" id="check1" />
+      <input type="checkbox" id="check1" />
+      <label htmlFor="check1">동의</label>
       <hr />
       <Textarea placeholder="자기소개 1000자 제한" variant="flushed"></Textarea>
       <hr />
