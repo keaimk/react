@@ -11,17 +11,26 @@ function MyApp23(props) {
       >
         lorem3
       </h1>
-      <p style={{
-        paddingLeft: "50px",
-        border: "2px" solid green;
-      }}></p>
-      <p>Lorem ipsum dolor sit amet, </p>
-      <ul style={{
-        listStyleType: "space-counter"
-      }}>
-        <li>Lorem</li>
+      <p
+        style={{
+          paddingLeft: "50px",
+          border: "2px solid green",
+        }}
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+        architecto atque deserunt ea est facere laboriosam magni maiores minima
+        nam nihil porro possimus quae quam quibusdam recusandae, sequi suscipit
+        tenetur.
+      </p>
+      <ul
+        style={{
+          listStyleType: "cjk-decimal",
+          color: "blue",
+        }}
+      >
+        <li>Lorem.</li>
         <li>Saepe!</li>
-        <li>Magni</li>
+        <li>Magni.</li>
       </ul>
     </div>
   );
