@@ -10,7 +10,6 @@ function MyApp10(props) {
 
   const b = a.filter((item) => item.expired);
   console.log(b);
-
   const c = b.map((item) => <h1>{item.product}</h1>);
   console.log(c);
 

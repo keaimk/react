@@ -18,11 +18,15 @@ function App10(props) {
   <h1>kim</h1>
    */
 
-  return <div>
-    {a.filter((item) => item.age >= 30)
-      <h1>{item.name}</h1>
-    )}
-  </div>;
+  return (
+    <div>
+      {a
+        .filter((item) => item.age >= 30)
+        .map((item) => (
+          <h1>{item.name}</h1>
+        ))}
+    </div>
+  );
 }
 
 export default App10;
