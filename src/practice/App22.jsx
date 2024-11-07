@@ -21,6 +21,7 @@ function App22(props) {
     </div>
   );
 }
+
 // Comp1 만들기 App22에서 넘겨준 children 두번 출력하기
 function Comp1({ children }) {
   return (

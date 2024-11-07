@@ -5,14 +5,16 @@ function MyApp22(props) {
     <div>
       <Comp score={99} name={"faker"} />
       <hr />
+
       {/* content는 children prop으로 전달 */}
       <Comp>some content</Comp>
-
       <hr />
+
       <Comp2 city={"런던"} mail={"야후"}>
         hello
       </Comp2>
       <hr />
+
       <Com3>
         {/*h2>lorem3^p>lorem*/}
         <h2>Lorem ipsum dolor.</h2>
