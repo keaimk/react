@@ -7,6 +7,7 @@ function MyApp21(props) {
     </div>
   );
 }
+
 function Comp1(props) {
   return (
     <div>
