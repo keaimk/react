@@ -10,12 +10,6 @@ function MyApp26(props) {
       <Button size="lg">click</Button>
       <Button size="xl">click</Button>
       <hr />
-      {/*<Button variant-="solid">click</Button>*/}
-      {/*<Button variant-="subtle">click</Button>*/}
-      {/*<Button variant-="surface">click</Button>*/}
-      {/*<Button variant-="outline">click</Button>*/}
-      {/*<Button variant-="ghost">click</Button>*/}
-      {/*<Button variant-="plain">click</Button>*/}
       <Button variant="solid">click</Button>
       <Button variant="subtle">click</Button>
       <Button variant="surface">click</Button>
