@@ -12,7 +12,6 @@ function App44(props) {
       draft.items.push(item);
     });
   };
-
   return (
     <div>
       <Field label={"이름"}>
