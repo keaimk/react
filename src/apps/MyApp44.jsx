@@ -12,6 +12,7 @@ const originPerson = {
     description: "자기소개",
   },
 };
+
 function MyApp44(props) {
   // const [person, setPerson] = useState(originPerson);
   const [person, updatePerson] = useImmer(originPerson);
