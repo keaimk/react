@@ -15,6 +15,7 @@ function MyApp47(props) {
     </div>
   );
 }
+
 function Comp4({ message }) {
   return (
     <Box>
@@ -23,6 +24,7 @@ function Comp4({ message }) {
     </Box>
   );
 }
+
 function Comp5({ message }) {
   return (
     <Box>
@@ -31,6 +33,7 @@ function Comp5({ message }) {
     </Box>
   );
 }
+
 function Comp3(props) {
   return (
     <>
@@ -40,6 +43,7 @@ function Comp3(props) {
     </>
   );
 }
+
 function Comp2({ message }) {
   return <Box>{message}</Box>;
 }
