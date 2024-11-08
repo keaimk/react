@@ -4,9 +4,9 @@ import { Box, Input } from "@chakra-ui/react";
 function Comp2() {
   // step2 : context 사용하기
   const message = useContext(MessageContext);
-
   return <Box>{message}</Box>;
 }
+
 function Comp1() {
   return (
     <Box>
@@ -20,7 +20,6 @@ const MessageContext = createContext("");
 
 function MyApp49(props) {
   const [message, setMessage] = useState("");
-
   return (
     <div>
       <Input onChange={(e) => setMessage(e.target.value)} />
