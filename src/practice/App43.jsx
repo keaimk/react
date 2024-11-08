@@ -11,7 +11,6 @@ const originPerson = {
     description: "자기소개",
   },
 };
-
 function App43(props) {
   const [person, setPerson] = useState(originPerson);
   return (
