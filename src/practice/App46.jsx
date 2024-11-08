@@ -15,6 +15,7 @@ function Comp({ count }) {
     </div>
   );
 }
+
 function MyApp46(props) {
   const [count, setCount] = useState(0);
 
