@@ -3,7 +3,6 @@ import { Button } from "../components/ui/button.jsx";
 
 function MyApp45(props) {
   const [number, setNumber] = useState(0);
-
   console.log("컴포넌트 함수 호출됨");
 
   const handleClick = () => {
