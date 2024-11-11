@@ -19,7 +19,6 @@ function App60(props) {
       price: price,
     });
   };
-
   return (
     <div>
       <Field label={"제목"}>
