@@ -19,7 +19,6 @@ function MyApp57(props) {
       >
         post 요청
       </Button>
-
       <hr />
       {/*javascript 사용*/}
       <Button
@@ -42,7 +41,6 @@ function MyApp57(props) {
       >
         post 요청
       </Button>
-
       <hr />
       {/* html 요소 이용 (a, form) */}
       {/* get */}
@@ -51,7 +49,6 @@ function MyApp57(props) {
       <form action="/hello" method="get">
         <button>전송</button>
       </form>
-
       <hr />
       {/*  post */}
       <form action="/greeting" method="post">
