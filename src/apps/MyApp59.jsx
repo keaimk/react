@@ -11,7 +11,6 @@ function MyApp59(props) {
             name: "손흥민",
             city: "서울",
           });
-          ㅏ;
         }}
       >
         btn4
@@ -20,22 +19,22 @@ function MyApp59(props) {
         onClick={() => {
           const d = new FormData();
           d.append("name", "흥민");
-          d.append("address");
+          d.append("address", "서울");
+          axios.post("/hi", d);
         }}
       >
         btn3
       </Button>
-      <Buttonㅏ
+      <Button
         onClick={() => {
           const p = new URLSearchParams();
           p.append("name", "손");
           p.append("address", "런던");
-
           axios.post("/hi", p);
         }}
       >
         btn2
-      </Buttonㅏ>
+      </Button>
       <Button
         onClick={() => {
           axios.post("/hi", "somedata");
