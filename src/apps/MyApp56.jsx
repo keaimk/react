@@ -19,8 +19,7 @@ function MyApp56(props) {
 
     p.then((value) => setCount2(value));
   }
-
-  function () {
+  function handleClickButton3() {
     const p = new Promise((resolve, reject) => {
       setTimeout(() => {
         const r = Math.random();
