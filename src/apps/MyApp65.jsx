@@ -32,9 +32,9 @@ function MyBookTableView({ books }) {
     </>
   );
 }
+
 function MyApp65(props) {
   const [books, setBooks] = useState([]);
-
   return (
     <div>
       <MyBookTableView books={books} />
