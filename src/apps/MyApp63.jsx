@@ -19,7 +19,7 @@ function MyApp63(props) {
       </Button>
       <Button
         onClick={() => {
-          axios.put("/api/main3/sub7", { title: "제목", author: "한강" });
+          axios.put("/api/main3/sub7", { title: "제목", author: "저자" });
         }}
       >
         put7
