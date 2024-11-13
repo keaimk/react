@@ -34,7 +34,26 @@ const router = createBrowserRouter([
   },
   {
     path: "/path3",
-    element: <div>여기는 3번 경로</div>,
+    element: (
+      <div>
+        여기는 3번 경로 <hr />
+        <Outlet />
+      </div>
+    ),
+    children: [
+      {
+        index: true,
+        element: <div>여기는 경로3의 홈페이지</div>,
+      },
+      {
+        path: "sub1",
+        element: <div>여기는 경로3/서브1</div>,
+      },
+      {
+        path: "sub2",
+        element: <div>여기는 경로3/서브2</div>,
+      },
+    ],
   },
   {
     path: "/path4",
